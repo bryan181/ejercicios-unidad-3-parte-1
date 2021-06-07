@@ -1,0 +1,11 @@
+Proceso numero_aleatorio_2 
+	definir alea,aumento Como real;
+	definir ok Como caracter;
+	alea=Aleatorio(10,50);
+	aumento = alea*0.75;
+	escribir"di ok para darte un numero de 0 a 200 ";
+	Leer ok;
+	escribir "el numero es : " alea;
+	escribir alea " el numero disminuido en un 15% es:  " aumento;
+
+FinProceso
