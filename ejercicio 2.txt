@@ -1,0 +1,9 @@
+Proceso solicite_2_datos
+	definir pais,capital Como caracter;
+	escribir"Escriba el pais: ";
+	Leer pais;
+	escribir" escriba la capital: ";
+	Leer capital;
+	
+	Escribir capital "  es la capital de :  "  pais;
+FinProceso
