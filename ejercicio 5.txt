@@ -1,0 +1,8 @@
+Proceso numero_siguiente
+	definir n,nsiguiente Como entero;
+	escribir"ingrese numero: ";
+	Leer n;
+	nsiguiente=n+1;
+	escribir"el numero siguiente es:  " nsiguiente;
+
+FinProceso
