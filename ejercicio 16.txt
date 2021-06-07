@@ -1,0 +1,24 @@
+Proceso cilindro 
+	definir n1,n2,n3 Como real;
+	escribir"ingrese el primer numero:";
+	Leer n1;
+	escribir"ingrese el segundo numero:";
+	Leer n2;
+	escribir"ingrese el tercer numero:";
+	Leer n3;
+	
+	Si n1>n2 Entonces
+		Si n1>n3 Entonces
+			escribir "el mayor es: " n1;
+
+		Fin Si
+	
+	SiNo
+		Si n2>n3 Entonces
+			escribir "el mayor es: " n2;
+		SiNo
+			escribir "el mayor es: " n3;
+		
+		Fin Si
+	Fin Si
+FinProceso
