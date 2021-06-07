@@ -1,0 +1,15 @@
+Proceso cilindro 
+	definir n1,n2 Como real;
+	escribir"ingrese el primer numero:";
+	Leer n1;
+	escribir"ingrese el segundo numero:";
+	Leer n2;
+	
+	Si (n1 mod n2)=0 Entonces
+		escribir "es divisible " ;
+	
+		
+	SiNo
+		escribir "no es divisible";
+	Fin Si
+FinProceso
