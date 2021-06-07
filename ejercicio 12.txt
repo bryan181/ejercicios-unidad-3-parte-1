@@ -1,0 +1,9 @@
+Proceso temperatura 
+	definir f,c como real;
+	escribir "ingrese la temperatura en fharenheit a convertir";
+	leer f;
+	c=(f-32)*5/9;
+	Escribir "los celsius son: " c;
+	
+	
+FinProceso
