@@ -1,0 +1,10 @@
+Proceso cuadrado_cubo
+	definir n,cuadrado,cubo Como entero;
+	escribir"ingrese numero: ";
+	Leer n;
+	cuadrado=n*n;
+	escribir"el cuadrado  del numero es: " cuadrado;
+
+	cubo=n*n*n;
+	escribir"el cubo del numero es: " cubo;
+FinProceso
