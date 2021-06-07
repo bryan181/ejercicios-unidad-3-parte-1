@@ -1,0 +1,18 @@
+Proceso positivo_negativo
+	definir n1,nulo como real;
+	escribir "ingrese el numero";
+	leer n1;
+	
+	Si (n1>0) Entonces
+		escribir "es positivo";
+	SiNo
+	escribir "es negativo";
+	Fin Si
+	
+	Si n1!=0 Entonces
+		escribir "es nulo";
+
+	Fin Si
+	
+	
+FinProceso
