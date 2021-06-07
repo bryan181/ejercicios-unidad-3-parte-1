@@ -1,0 +1,13 @@
+Proceso intercambio_de_palabras 
+	definir a,b,intercambio Como caracter;
+	Escribir "a.Escriba una palabra: ";
+	leer a;
+	Escribir "b.Escriba una palabra: ";
+	leer b;
+	intercambio =a;
+	a=b;
+	b=intercambio;
+	escribir "la palabara de a en el intercambio: " a;
+	escribir "la palabara de b en el intercambio: " b;
+
+FinProceso
