@@ -1,0 +1,24 @@
+Proceso triangulo
+	definir l1,l2,l3,b como real;
+
+	escribir "ingrese los 3 lados del triangulo";
+	escribir "ingrese lado 1:";
+	leer l1;
+	escribir "ingrese lado 2:";
+	leer l2;
+	escribir "ingrese lado 3:";
+	leer l3;
+	
+	Si l1=l2 y l1=l3 Entonces
+		escribir "es equilatero";
+
+	Fin Si
+	Si l1=l1 o l2=l3 o l1=l3 Entonces
+		escribir "es escaleno";
+	SiNo
+		escribir "es es isoceles";
+	Fin Si
+	
+
+	
+FinProceso
