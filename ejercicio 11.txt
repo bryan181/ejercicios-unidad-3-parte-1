@@ -1,0 +1,14 @@
+Proceso conversiones 
+	definir cen,yar,me,ft,in Como real;
+	escribir"ingrese el numero en centimetros que desea convertir:";
+	Leer cen;
+	yar=cen*0.0109361;
+	me=cen*0.01;
+	ft=cen*0.0328084;
+	in=cen*0.393701;
+	
+	Escribir "en yardas es : " yar;
+	Escribir "en metros  es : " me;
+	Escribir "en pies es : " ft;
+	Escribir "en pulgadas es : " in;
+FinProceso
