@@ -1,0 +1,13 @@
+Proceso promedio_de_tres
+	definir n1,n2,n3 Como entero;
+	definir promedio Como real;
+	Escribir "ingrese numero: ";
+	leer n1;
+	Escribir "ingrese numero: ";
+	leer n2;
+	Escribir "ingrese numero: ";
+	leer n3;
+	promedio=(n1+n2+n3)/3;
+	escribir "el promedio es : " promedio;
+
+FinProceso
