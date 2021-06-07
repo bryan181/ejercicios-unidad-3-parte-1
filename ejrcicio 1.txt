@@ -1,0 +1,10 @@
+Proceso suma_de_2_numeros
+	definir num1,num2,resultado Como Entero;
+	escribir" ingrese numero: ";
+	Leer num1;
+	escribir" ingrese numero: ";
+	Leer num2;
+	
+	resultado = num1 + num2;
+	Escribir " el resultado es:  " resultado;
+FinProceso
