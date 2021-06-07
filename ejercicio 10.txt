@@ -1,0 +1,13 @@
+Proceso perimetro_altura
+	definir b,h,a,p Como entero;
+	Escribir "ingrese la base: ";
+	leer b;
+	Escribir "ingrese la altura: ";
+	leer h;
+     p=2*b+2*h;
+	 a=b*h;
+	
+	escribir "el perimetro es: " p;
+	escribir "el area es:  " a;
+
+FinProceso
