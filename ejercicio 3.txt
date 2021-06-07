@@ -1,0 +1,10 @@
+Proceso dobe_triple
+	definir n,doble, triple Como entero;
+	escribir"ingrese numero: ";
+	Leer n;
+	doble=n*2;
+	escribir"el doble del numero es: " doble;
+
+	triple=n*3;
+	escribir"el triple del numero es: " triple;
+FinProceso
