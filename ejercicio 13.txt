@@ -1,0 +1,16 @@
+Proceso cilindro 
+	definir r,h,v Como real;
+	escribir"ingrese el radio:";
+	Leer r;
+	escribir"ingrese la altura:";
+	Leer h;
+	
+	Si (r>0) y (h>0) Entonces
+		v=PI+r+h;
+		escribir "el volumen del cilindro es: "  v;
+	
+		
+	SiNo
+		escribir "no se puede calcular porque no son numeros positivos";
+	Fin Si
+FinProceso
